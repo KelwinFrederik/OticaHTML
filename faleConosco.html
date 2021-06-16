@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>Fale Conosco</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<header><!-- Cabeçalho da pagina-->
+		<div class ="barra_superior">
+			<div class = "container">
+				Horário de abertura: 9:00 - 18:00h
+			</div>
+		</div>
+		<div class="container">
+			<!-- img coloca um imagem, alt é um texto que aparece quando a imagem não carrega, title aparace quando colocamos o mouse sobre a imagem, src é o caminho onde a imagem esta-->
+			<img class="logo" alt="Logo da Empresa" title="esta imagem tem a logo da empresa!" src = "img/logo.jpg"/>
+	   
+			<nav> <!-- Menu de navegação -->
+			<a alt="PAGINA INICIAL" href="index.html">Inicío </a> | 
+				<a alt="MARCAS" href=" index.html#marcas" >Produtos e Marcas</a> | 
+				<a title =" Pagina Fale conosco" href="faleConosco.html"> Fale Conosco</a> <a class = "btn_destaque" href="OndeEstamos.html">Onde estamos</a>
+			</nav>					
+		</div>
+			<br /><!-- br solta uma linha na pagina-->
+	   
+		</header>
+		<section class="sec_fale">
+			<div class="container">
+				<div class="metade">
+					<!-- metodo get, os dados são passados pela url--->
+					<!-- metodo post, os dados são passados pela requisição--->
+					<form enctype="application/x-www-form-urlencoded" method="POST" action="">
+						<label for="NomeCompleto">NOME: </label>
+						<input id ="NomeCompleto" type="text" name="Nome_Completo" placeholder="Digite Seu nome completo"/>
+						<br />
+						
+						<label for="Email">EMAIL: </label>
+						<input id ="Email" type="email" name="Nome_Completo" placeholder="Digite Seu Email"/>
+						<br />
+						
+						<label for="Telefone">TELEFONE: </label>
+						<input id ="Telefone" type="text" name="Nome_Completo" placeholder="Digite Seu Telefone"/>				
+						<br />
+						
+						<label for="Mensagem"> MENSAGEM </label>
+						<textarea id ="Mensagem" name="Mensagem" placeholder="Digite sua mensagem"></textarea>
+						<br />
+						
+						<input class="btn_destaque" type="submit" value="Enviar"/>
+					</form>
+				</div>
+				<div class="metade">
+					<div>
+						<strong> Telefone: </strong>(00) 00000-0000;<br/>
+						<strong> REDES SOCIAIS:</strong> <br />
+						<a href="#"> <img alt="Facebook Empresa!" src="img/facebook.jpg" /></a>
+						<a href="#"><img alt="Instagram Empresa!" src="img/Instragram.jpg" /></a>
+						<a href="#"><img alt="Twitter Empresa!" src="img/twitter.jpg"/></a>
+						<br/><br/><br/>
+						<strong> Telefone: </strong>(00) 00000-0000;<br/>
+					</div>
+					<br /><br />
+					<address>
+						Brasil, DF
+						<br />
+						00000-000
+						<br />
+						av. alguma coisa  casa 20
+					</address>
+				</div>
+			</div>
+		</section>
+		<br class="clearfix"/>
+		
+		<footer><!-- Rodape da pagina -->
+			<div class="container">
+				<div class="um_terco">		
+					<img class="logo" alt="Logo da Empresa" title="esta imagem tem a logo da empresa!" src = "img/logo.jpg"/>
+					<p>nos oferecemos um serviço completo para o melhor conforto da sua visão.</p>
+					<a href="#"> <img alt="Facebook Empresa!" src="img/facebook.jpg" /></a>
+					<a href="#"><img alt="Instagram Empresa!" src="img/Instragram.jpg" /></a>
+					<a href="#"><img alt="Twitter Empresa!" src="img/twitter.jpg"/></a>
+				</div>
+				<div class="um_terco">
+					<div class="margem_esquerda">
+						<h3>Links</h3>
+						
+						 <a alt="PAGINA INICIAL" href="index.html">Inicío </a><br />
+						 <a alt="MARCAS" href=" index.html#marcas" >Produtos e Marcas</a><br />
+						 <a title =" Pagina Fale conosco" href="faleConosco.html"> Fale Conosco</a><br />
+						 <a href="OndeEstamos.html">Onde estamos</a><br />
+					</div>
+				</div>
+				<div class="um_terco">
+					<h3>contato</h3>
+					<p><strong>Endereço:</strong>Ruax, endereçoY, avenidaZ.
+					Cidade, Uf, 00000-000.</p>
+					
+					<p><strong>Telefone:</strong> <a href="tel:+5531999999999">(31) 999999999</a></p>
+					
+					<p><strong>Email: </strong><a href="mailto:otca@otica.com.br">otca@otica.com.br</a></p>
+				</div>
+			</div> 
+			<br class="clearfix"  />
+			
+			<div class="direitos_reservados">
+				Todos os direitos reservados (@) 2017. <a href="TermoDeUso.html">Termos de uso</a> e <a href="PoliticaPrivacidade.html">politica de privacidade</a>.
+			</div>
+		<footer/>
+	</body>
+</html>
+
